@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fileset-config file-format-version="1.2.0" simple-config="false" sync-formatter="false">
+  <fileset name="Java Files (Besides Unit Tests)" enabled="true" check-config-name="Taitl Checkstyle Settings for Java" local="false">
+    <file-match-pattern match-pattern=".java$" include-pattern="true"/>
+    <file-match-pattern match-pattern=".*Test\.java$" include-pattern="false"/>
+    <file-match-pattern match-pattern=".*Tests\.java$" include-pattern="false"/>
+  </fileset>
+  <fileset name="Java Unit Tests" enabled="true" check-config-name="Taitl Checkstyle Settings for Unit Tests" local="false">
+    <file-match-pattern match-pattern=".*Test\.java$" include-pattern="true"/>
+    <file-match-pattern match-pattern=".*Tests\.java$" include-pattern="true"/>
+  </fileset>
+</fileset-config>
