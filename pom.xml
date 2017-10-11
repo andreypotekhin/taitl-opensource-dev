@@ -16,7 +16,7 @@
    <name>taitl-opensource-dev</name>
    <description>A place for shared documents and settings</description>
    <dependencies>
-   </dependencies>
+   </dependencies>  
     <build>
       <resources>
          <resource>
